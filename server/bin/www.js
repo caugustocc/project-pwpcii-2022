@@ -2,7 +2,9 @@
 /**
  * Module dependencies.
  */
-var app = require('../app');
+// var app = require('../app');
+//importando de forma moderna en js
+import app from '../app';
 var debug = require('debug')('p01-projnotes:server');
 var http = require('http');
 

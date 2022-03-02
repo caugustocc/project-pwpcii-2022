@@ -1,17 +1,19 @@
 //preambulo
-var createError = require('http-errors');// manejo de errores http
-var express = require('express'); //crea servidores
-var path = require('path'); // nucleo de node, ayuda al manejo de las rutas
-var cookieParser = require('cookie-parser'); //manejo de cookies
-var logger = require('morgan');// log de peticiones
+//en este commit se hace la actualizacion a codigo moderno
+import createError from "http-errors";
+import  express from "express"; //crea servidores
+import path from "path"; // nucleo de node, ayuda al manejo de las rutas
+import cookieParser from "cookie-parser";//manejo de cookies
+import logger from "morgan";// log de peticiones
 
-var indexRouter = require('./routes/index');
-//para la clase sig
-var usersRouter = require('./routes/users');
-var aboutRouter = require('./routes/about');
+
+//rutas
+import indexRouter from"./routes/index";
+import usersRouter from "./routes/users";
+import aboutRouter from "./routes/about";
 //se crea instancia de express
 //(res req, next) =>{...}
-var app = express();
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -32,12 +34,11 @@ app.use('/about', aboutRouter);
 
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use((req,res,next)=>{
   next(createError(404));
-});
-
+})
 // error handler
-app.use(function(err, req, res, next) {
+app.use((err, req, res, next)=>{
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
@@ -46,5 +47,5 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
-module.exports = app;
+//exportando instansia de App usando js Moderno
+export default app;
