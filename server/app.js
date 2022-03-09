@@ -5,8 +5,6 @@ import  express from "express"; //crea servidores
 import path from "path"; // nucleo de node, ayuda al manejo de las rutas
 import cookieParser from "cookie-parser";//manejo de cookies
 import logger from "morgan";// log de peticiones
-
-
 //rutas
 import indexRouter from"./routes/index";
 import usersRouter from "./routes/users";
