@@ -1,20 +1,10 @@
-#!/usr/bin/env node
-/**
- * Module dependencies.
- */
-// var app = require('../app');
-//importando de forma moderna en js
-import app from '../app';
-//importa la funcion debug y luego con la funcion crea la 
-//instancia con los siguientes agumentos
-//var debug = require('debug')('p01-projnotes:server');
-//importando Debug
+
+import app from '@s/app';
 import Debug from 'debug';
 // var http = require('http');
 import http from 'http';
 //creando o ejecuntando con la instancia Db y el argumento
 const debug = Debug("p01-projnotes:server");
-
 
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
@@ -36,7 +26,6 @@ server.on('listening', onListening);
 /**
  * Normalize a port into a number, string, or false.
  */
-
 function normalizePort(val) {
   const port = parseInt(val, 10);
 

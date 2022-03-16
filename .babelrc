@@ -8,5 +8,15 @@
                 }
             }
         ]
+    ],
+    "plugins": [
+        [
+            "module-resolve",{
+                "root":"./",
+                "alias":{
+                    "@s":"./server"
+                }
+            }
+        ]
     ]
 }
