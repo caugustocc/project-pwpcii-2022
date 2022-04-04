@@ -43,7 +43,7 @@ module.exports = {
                                         module: false,
                                         useBuiltIns: 'usage',
                                         targets: '> 0.25%, not dead',
-                                        corjs: 3
+                                        corejs: 3
                                     }
                                 ]
                             ]
@@ -53,4 +53,4 @@ module.exports = {
             }
         ]
     }
-}
+};

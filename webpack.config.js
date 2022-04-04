@@ -31,11 +31,12 @@ module.exports = {
                         options: {
                             presets: [
                                 [
-                                    '@babel/preset-env', {
-                                        module: false,
-                                        useBuiltIns: 'usage',
+                                    '@babel/preset-env', 
+                                    {
+                                        modules: false,
+                                        useBuiltIns: "usage",
                                         targets: '> 0.25%, not dead',
-                                        corjs: 3
+                                        corejs: 3
                                     }
                                 ]
                             ]
@@ -51,7 +52,7 @@ module.exports = {
         ]
     },
     // 4. plugins
-    Plugins: [new MiniCssExtractPlugin({
-        filename:path.join('stylesheets', 'styles.css')
+    plugins: [new MiniCssExtractPlugin({
+        filename: path.join('stylesheets','styles.css')
     })]
 };
