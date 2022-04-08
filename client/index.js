@@ -1,7 +1,6 @@
 // const { resolve } = require("core-js/fn/promise");
 // const async = require("hbs/lib/async");
 // const { CompileShallowModuleMetadata } = require("prettier");
-
 console.log("webpack💫");
 // default parameters
 let show = (m ="holis☠")=>{
