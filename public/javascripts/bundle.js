@@ -1,1 +1,1 @@
-console.log("webpack💫"),((o="holis☠")=>{alert(o)})(),async function(){console.log("calling asyn funtion!!!");const o=await new Promise((o=>{setTimeout((()=>{o("functio resolve")}),2e3)}));console.log(o)}();
+console.log("webpack💫"),((o="holis ☠")=>{alert(o)})(),async function(){console.log("calling asyn funtion!!!");const o=await new Promise((o=>{setTimeout((()=>{o("functio resolve")}),2e3)}));console.log(o)}();
