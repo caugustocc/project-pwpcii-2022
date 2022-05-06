@@ -1,0 +1,10 @@
+{"level":"info","message":"GET / 200 3101.428 ms - 288\n","timestamp":"05-05-2022 23:21:06"}
+{"level":"info","message":"GET /stylesheets/style.css 404 18.001 ms - 1413\n","timestamp":"05-05-2022 23:21:06"}
+{"level":"info","message":"GET /javascripts/budle.js 404 27.328 ms - 1413\n","timestamp":"05-05-2022 23:21:06"}
+{"level":"info","message":"GET /favicon.ico 404 1.561 ms - 1413\n","timestamp":"05-05-2022 23:21:06"}
+{"level":"info","message":"GET / 200 8.364 ms - 288\n","timestamp":"05-05-2022 23:22:50"}
+{"level":"info","message":"GET /stylesheets/style.css 404 1.370 ms - 1413\n","timestamp":"05-05-2022 23:22:50"}
+{"level":"info","message":"GET /javascripts/budle.js 404 5.858 ms - 1413\n","timestamp":"05-05-2022 23:22:51"}
+{"level":"info","message":"GET / 200 81.260 ms - 288\n","timestamp":"05-05-2022 23:31:52"}
+{"level":"info","message":"GET /stylesheets/style.css 404 13.663 ms - 1413\n","timestamp":"05-05-2022 23:31:52"}
+{"level":"info","message":"GET /javascripts/budle.js 404 6.415 ms - 1413\n","timestamp":"05-05-2022 23:31:52"}
