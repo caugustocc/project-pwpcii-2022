@@ -1,10 +1,9 @@
-
-import app from '@s/app';
+import app from '@s/app'; // resolvedor de rutas es necesario otro pluguin
 import Debug from 'debug';
 // var http = require('http');
 import http from 'http';
-//creando o ejecuntando con la instancia Db y el argumento
-const debug = Debug("p01-projnotes:server");
+// creando o ejecuntando con la instancia Db y el argumento
+const debug = Debug('p01-projnotes:server');
 
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
@@ -51,14 +50,12 @@ function onError(error) {
     throw error;
   }
 
-  var bind = typeof port === 'string'
-    ? 'Pipe ' + port
-    : 'Port ' + port;
+  const bind = typeof port === 'string' ? `Pipe ${port}` : `Port ${port}`;
 
   // handle specific listen errors with friendly messages
   switch (error.code) {
     case 'EACCES':
-      //console.error(bind + ' requires elevated privileges'); interpolacion
+      // console.error(bind + ' requires elevated privileges'); interpolacion
       console.error(`${bind} requires elevated privileges`);
       process.exit(1);
       break;
@@ -78,8 +75,8 @@ function onError(error) {
 
 function onListening() {
   const addr = server.address();
-  //const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port; operador ternario
+  // const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port; operador ternario
   const bind = typeof addr === 'string' ? `pipe ${addr}` : `port  ${addr.port}`;
   debug(`Listening on ${bind}`);
-  console.log(`escuchando en ${port}`)
+  console.log(`escuchando en ${port}`);
 }
