@@ -37,3 +37,15 @@
 {"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.121 ms - -\n","timestamp":"09-05-2022 08:47:17"}
 {"level":"info","message":"GET /javascripts/budle.js 404 26.629 ms - 1413\n","timestamp":"09-05-2022 08:47:17"}
 {"level":"info","message":"GET /images/SCara.ico 304 3.008 ms - -\n","timestamp":"09-05-2022 08:47:17"}
+{"level":"info","message":"GET / 200 75.357 ms - 536\n","timestamp":"09-05-2022 08:49:51"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 12.987 ms - -\n","timestamp":"09-05-2022 08:49:51"}
+{"level":"info","message":"GET /stylesheets/style.css 404 65.393 ms - 1413\n","timestamp":"09-05-2022 08:49:51"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 7.129 ms - -\n","timestamp":"09-05-2022 08:49:51"}
+{"level":"info","message":"GET /javascripts/budle.js 404 27.619 ms - 1413\n","timestamp":"09-05-2022 08:49:51"}
+{"level":"info","message":"GET /images/SCara.ico 304 1.763 ms - -\n","timestamp":"09-05-2022 08:49:51"}
+{"level":"info","message":"GET / 200 57.355 ms - 526\n","timestamp":"09-05-2022 08:53:15"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 3.388 ms - -\n","timestamp":"09-05-2022 08:53:15"}
+{"level":"info","message":"GET /stylesheets/style.css 404 11.211 ms - 1413\n","timestamp":"09-05-2022 08:53:15"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 8.480 ms - -\n","timestamp":"09-05-2022 08:53:15"}
+{"level":"info","message":"GET /javascripts/budle.js 404 21.133 ms - 1413\n","timestamp":"09-05-2022 08:53:15"}
+{"level":"info","message":"GET /sad 404 7.353 ms - 1413\n","timestamp":"09-05-2022 08:53:22"}

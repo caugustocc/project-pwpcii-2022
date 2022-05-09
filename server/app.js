@@ -86,6 +86,12 @@ app.use((err, req, res) => {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
+  winston.error(
+    `${err.status || 500} : ${err.message} : ${req.method} 
+    ${req.originalUrl} : 
+    IP: ${req.ip}`
+  );
+
   // render the error page
   res.status(err.status || 500);
   res.render('error');
