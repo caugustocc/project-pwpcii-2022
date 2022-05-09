@@ -6,11 +6,13 @@ import express from 'express'; // crea servidores
 import path from 'path'; // nucleo de node, ayuda al manejo de las rutas
 import cookieParser from 'cookie-parser'; // manejo de cookies
 import morgan from 'morgan'; // log de peticiones
+// Importando configurador de plantillas
+
 // rutas
 import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
 import WebpackHotMiddleware from 'webpack-hot-middleware';
-
+import templateEngineConf from './config/templateEngine';
 import indexRouter from './routes/index';
 import usersRouter from './routes/users';
 import aboutRouter from './routes/about';
@@ -60,8 +62,7 @@ if (nodeEnv === 'development') {
 }
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
+templateEngineConf(app);
 // Todos los middlewere gobales
 // van primero que cualquier  otro middlewere de la app
 app.use(morgan('dev', { stream: winston.stream }));
