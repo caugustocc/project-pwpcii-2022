@@ -3,7 +3,6 @@
 // const { CompileShallowModuleMetadata } = require("prettier");
 /* eslint-disable */
 /* eslint-disable no-console */
-import "./styles/style.css";
 import "./styles/mystyle.css";
 
 console.log("webpack💫");

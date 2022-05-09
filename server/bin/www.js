@@ -1,3 +1,4 @@
+/* eslint no-import-assign: "error" */
 import app from '@s/app'; // resolvedor de rutas es necesario otro pluguin
 import Debug from 'debug';
 // var http = require('http');
