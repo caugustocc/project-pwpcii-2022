@@ -3,6 +3,7 @@ import app from '@s/app'; // resolvedor de rutas es necesario otro pluguin
 import Debug from 'debug';
 // var http = require('http');
 import http from 'http';
+import winston from 'winston';
 // creando o ejecuntando con la instancia Db y el argumento
 const debug = Debug('p01-projnotes:server');
 
@@ -57,12 +58,12 @@ function onError(error) {
   switch (error.code) {
     case 'EACCES':
       // console.error(bind + ' requires elevated privileges'); interpolacion
-      console.error(`${bind} requires elevated privileges`);
+      winston.error(`${bind} requires elevated privileges`);
       process.exit(1);
       break;
     case 'EADDRINUSE':
       // console.error(bind + ' is already in use');
-      console.error(`${bind} is already in use`);
+      winston.error(`${bind} is already in use`);
       process.exit(1);
       break;
     default:
@@ -76,8 +77,7 @@ function onError(error) {
 
 function onListening() {
   const addr = server.address();
-  // const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port; operador ternario
   const bind = typeof addr === 'string' ? `pipe ${addr}` : `port  ${addr.port}`;
   debug(`Listening on ${bind}`);
-  console.log(`escuchando en ${port}`);
+  winston.info(`escuchando en ${app.get('port')}`);
 }
