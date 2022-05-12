@@ -49,3 +49,11 @@
 {"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 8.480 ms - -\n","timestamp":"09-05-2022 08:53:15"}
 {"level":"info","message":"GET /javascripts/budle.js 404 21.133 ms - 1413\n","timestamp":"09-05-2022 08:53:15"}
 {"level":"info","message":"GET /sad 404 7.353 ms - 1413\n","timestamp":"09-05-2022 08:53:22"}
+{"level":"info","message":"GET / 200 346.171 ms - 567\n","timestamp":"11-05-2022 08:54:15"}
+{"level":"info","message":"GET /stylesheets/style.css 404 82.054 ms - 1413\n","timestamp":"11-05-2022 08:54:15"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 200 127.703 ms - 141825\n","timestamp":"11-05-2022 08:54:15"}
+{"level":"info","message":"GET /javascripts/budle.js 404 7.059 ms - 1413\n","timestamp":"11-05-2022 08:54:15"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 200 329.546 ms - 181083\n","timestamp":"11-05-2022 08:54:15"}
+{"level":"info","message":"GET /sda 404 7.561 ms - 1413\n","timestamp":"11-05-2022 09:00:29"}
+{"level":"info","message":"GET /favicon.ico 404 4.858 ms - 1413\n","timestamp":"11-05-2022 09:00:30"}
+{"level":"info","message":"GET /sda 404 5.995 ms - 1413\n","timestamp":"11-05-2022 09:00:45"}

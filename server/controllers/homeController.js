@@ -1,10 +1,6 @@
-const express = require('express');
-
-const router = express.Router();
-
-/* GET home page. */
-
-router.get('/', (_, res) => {
+// URL: get /
+const index = (req, res) => {
+  // Calculando emojie
   const emojiDataset = [
     '☠',
     '😀',
@@ -17,15 +13,18 @@ router.get('/', (_, res) => {
     '🌹',
     '🕳',
   ];
+
   const emojiDb = emojiDataset[Math.floor(Math.random() * emojiDataset.length)];
   // render manda a generar y entregar
   // la vista al cliente
-  res.render('index', {
-    // este es el view-Model
-    title: 'ProjNotes',
+  const viewModel = {
+    title: 'Index Controler Working !!!',
     author: 'Cruz',
     emojiDb,
-  });
-});
-
-module.exports = router;
+  };
+  res.render('index', viewModel);
+};
+export default {
+  // [Action methods]
+  index,
+};

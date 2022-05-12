@@ -13,9 +13,8 @@ import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
 import WebpackHotMiddleware from 'webpack-hot-middleware';
 import templateEngineConf from './config/templateEngine';
-import indexRouter from './routes/index';
-import usersRouter from './routes/users';
-import aboutRouter from './routes/about';
+// Importando enrutado
+import router from './routes/router';
 // Importando nuestro logger
 import winston from './config/winston';
 // Importando webpack
@@ -72,9 +71,7 @@ app.use(cookieParser());
 // middlewere de archivos estaticos
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/about', aboutRouter);
+router.addRoutes(app);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
