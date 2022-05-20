@@ -5,11 +5,13 @@ import app from '@s/app'; // resolvedor de rutas es necesario otro pluguin
 import Debug from 'debug';
 // var http = require('http');
 import http from 'http';
-import winston from 'winston';
+import winston from '../config/winston';
+
+import configKeys from '../config/configKeys';
 // creando o ejecuntando con la instancia Db y el argumento
 const debug = Debug('p01-projnotes:server');
 
-const port = normalizePort(process.env.PORT || '3000');
+const port = normalizePort(configKeys.port || '5000');
 app.set('port', port);
 
 /**
@@ -32,7 +34,7 @@ server.on('listening', onListening);
 function normalizePort(val) {
   const port = parseInt(val, 10);
 
-  if (isNaN(port)) {
+  if (Number.isNaN(port)) {
     // named pipe
     return val;
   }

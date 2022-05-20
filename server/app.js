@@ -1,97 +1,116 @@
 /* eslint-disable no-console */
-// preambulo
-// en este commit se hace la actualizacion a codigo moderno
-import createError from 'http-errors';
-import express from 'express'; // crea servidores
-import path from 'path'; // nucleo de node, ayuda al manejo de las rutas
-import cookieParser from 'cookie-parser'; // manejo de cookies
-import morgan from 'morgan'; // log de peticiones
-// Importando configurador de plantillas
 
-// rutas
+// Preambulo
+// Ayuda a manejar errores http
+import createError from 'http-errors';
+// Ayuda a crear servidores web
+import express from 'express';
+// Nucleo de node, ayuda al manejo de las rutas
+import path from 'path';
+// Ayuda al manejo de las cookies
+import cookieParser from 'cookie-parser';
+// Maneja el log de peticiones http
+import morgan from 'morgan';
+// Las rutas
 import webpack from 'webpack';
-import webpackDevMiddleware from 'webpack-dev-middleware';
+import WebpackDevMiddleware from 'webpack-dev-middleware';
 import WebpackHotMiddleware from 'webpack-hot-middleware';
-import templateEngineConf from './config/templateEngine';
-// Importando enrutado
+// importando configurador de plantillas
+import templateEngineConfigurator from './config/templateEngine';
+// Importando enrutado principal
 import router from './routes/router';
-// Importando nuestro logger
+
+// importando nuestro logger
 import winston from './config/winston';
-// Importando webpack
+
+// Importando modulos de webpack
+// Nucleo de webpack
 // Permite incrustar webpack en express
-// Perimte la actualizacion
-//
+// Permite la actualización dinamica de la página
+// Configuración
 import webpackConfig from '../webpack.dev.config';
 
-// se crea instancia de express
-// (res req, next) =>{...}
+// Aqui se crea la instancia de express
+// (req, res, next, err) => {... }
 const app = express();
 
-// Recuperar el modo de ejecucion
-const nodeEnv = process.env.NONE_ENV || 'development';
-console.log(`< 🍕 > nodeEnv: ${nodeEnv}`);
-// Decidiendo si embebemos el webpack mideleware
+// Recuperar el modo de ejecución
+const nodeEnv = process.env.NODE_ENV || 'development';
+
+// Decidiendo si embebemos el webpack middleware
 if (nodeEnv === 'development') {
-  // Embebiendo webpck a mi apliacion
-  console.log('ejecutando en mdo desarrollo 🤡');
-  // Establecioendo el modo de webpack en desarrollo
+  // Embebiendo webpack a mi aplicación
+  console.log(`✍ Ejecutando en modo desarrollo 🤱👶`);
+
+  // Establiendo el modo de webpack en desarrollo
   // en el configurador
   webpackConfig.mode = 'development';
-  // Confirgurando la ruta del HMR
-  // reload=true : Habilita la recarga automatica cuando un archivo JS cambia
-  // timeout=1000: Tiempo de refresco de la pagina
+
+  // Congigurando la ruta del HMR (Hot Module Replacemnet)
+  // reload=true : Habilita la recarga automatica cuando un archivo Js camboa
+  // timeout=1000 : Tiempo de refresco de pagina
   webpackConfig.entry = [
     'webpack-hot-middleware/client?reload=true&timeout=1000',
     webpackConfig.entry,
   ];
-  // Agregando el plugin a la configuracion de desarrollo
+  // Agregando el plugin a la configuración de desarrollo
   webpackConfig.plugins.push(new webpack.HotModuleReplacementPlugin());
-  // Creamos un empaquetador a partir de un objeto de configuracion
+
+  // Creando el empaqetador a partir de un objeto de configuración
   const bundler = webpack(webpackConfig);
-  // Habilitamos el Middleware de webpack en express
+
+  // Habilitando el Middleware de webpack en express
   app.use(
-    webpackDevMiddleware(bundler, {
+    WebpackDevMiddleware(bundler, {
       publicPath: webpackConfig.output.publicPath,
     })
   );
-  // Habilitamos e middleware del webpack HRM
+
+  // Habilitando el Middleware del Webpack HMR
   app.use(WebpackHotMiddleware(bundler));
 } else {
-  console.log('ejecutando en mdo produccion ⚠');
+  console.log(`✍ Ejecutando en modo producción ⚙⚙`);
 }
-
+// Configuración del motor de plantillas ( template Engine)
 // view engine setup
-templateEngineConf(app);
-// Todos los middlewere gobales
-// van primero que cualquier  otro middlewere de la app
+templateEngineConfigurator(app);
+
+// Todos los middlerwares globales
+// van primero que cualquier otro middleware de la app
 app.use(morgan('dev', { stream: winston.stream }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-// middlewere de archivos estaticos
+// Middleware de archivos estaticos
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
+// Registrando las rutas en la App
 router.addRoutes(app);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
+  // Registrando el error 404 en el log
+  winston.error(
+    `404 - Not Found: ${req.method} ${req.originalUrl}: IP ${req.ip}`
+  );
   next(createError(404));
 });
+
 // error handler
 app.use((err, req, res) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  winston.error(
-    `${err.status || 500} : ${err.message} : ${req.method} 
-    ${req.originalUrl} : 
-    IP: ${req.ip}`
-  );
+  // Registramos el error en winston
+  winston.error(`${err.status || 500} : ${err.message} : 
+   ${req.method} ${req.originalUrl}: IP ${req.ip}`);
 
   // render the error page
   res.status(err.status || 500);
   res.render('error');
 });
-// exportando instansia de App usando js Moderno
+
+// Exportando instancia de app
+// usando Js moderno
 export default app;

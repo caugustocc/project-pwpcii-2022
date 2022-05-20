@@ -1,29 +1,14 @@
-// const { resolve } = require("core-js/fn/promise");
-// const async = require("hbs/lib/async");
-// const { CompileShallowModuleMetadata } = require("prettier");
-/* eslint-disable */
 /* eslint-disable no-console */
-import "./styles/mystyle.css";
+/* global M */
 
-console.log("webpack💫");
-// default parameters
-const show = (m = "holis ☠") => {
-  alert(m);
-};
-show();
+// Incorporando estilos a mi bundle
+import './styles/mystyle.css';
 
-// promises
-function resolveAfter2Seconds() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("functio resolve");
-    }, 2000);
-  });
-}
-
-async function asyncCall() {
-  console.log("calling asyn funtion!!!");
-  const result = await resolveAfter2Seconds();
-  console.log(result); // imprime "funcion resolve" en la consola
-}
-asyncCall();
+/* Inicializando elementos de materializecss */
+document.addEventListener('DOMContentLoaded', () => {
+  // Obteniendo la referencia a la barra de navegacion
+  // lateral
+  const sideNavs = document.querySelectorAll('.sidenav');
+  // eslint-disable-next-line no-undef
+  M.Sidenav.init(sideNavs);
+});
