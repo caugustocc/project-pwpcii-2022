@@ -1,6 +1,6 @@
 // Importando el paquete dotenv
 import dotenv from 'dotenv';
-/* Cargo variabls de entorno
+/* Cargo variables de entorno
  en caso de no estar presentes,
  el modulo fallara de manera silenciosa
  */
@@ -11,4 +11,5 @@ export default {
   homeUrl: `${process.env.APP_URL} : ${process.env.PORT}`,
   port: process.env.PORT,
   ip: process.env.IP,
+  databaseUrl: process.env.DATABASE_URL,
 };

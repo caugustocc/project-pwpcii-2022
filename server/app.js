@@ -29,6 +29,10 @@ import winston from './config/winston';
 // Permite la actualización dinamica de la página
 // Configuración
 import webpackConfig from '../webpack.dev.config';
+// Importando las variables de configuracion
+import configKeys from './config/configKeys';
+// Importando clase conectora de la base d edatos
+import MongooseODM from './config/odm';
 
 // Aqui se crea la instancia de express
 // (req, res, next, err) => {... }
@@ -71,6 +75,22 @@ if (nodeEnv === 'development') {
 } else {
   console.log(`✍ Ejecutando en modo producción ⚙⚙`);
 }
+// Conexion a la base de datos
+// Creando una instancia a la conexion de la DB
+const mongooseODM = new MongooseODM(configKeys.databaseUrl);
+// Crear un IIFE para crear un ambito asincrono
+// que me permita usar await
+(async () => {
+  // ejecutamos la conexion
+  const connectionResult = await mongooseODM.connect();
+  // Checamos si hay error
+  if (connectionResult) {
+    // si conecto correctamente
+    winston.info('Conexion a la BD exitosa ✔');
+  } else {
+    winston.error('☠ No se conecto 🚫');
+  }
+})();
 // Configuración del motor de plantillas ( template Engine)
 // view engine setup
 templateEngineConfigurator(app);

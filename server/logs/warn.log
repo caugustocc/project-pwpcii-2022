@@ -1,11 +1,9 @@
-{"level":"error","message":"404 - Not Found: GET /stylesheets/style.css: IP ::1","timestamp":"18-05-2022 08:34:56"}
-{"level":"error","message":"404 - Not Found: GET /javascripts/budle.js: IP ::1","timestamp":"18-05-2022 08:34:56"}
-{"level":"error","message":"404 - Not Found: GET /stylesheets/style.css: IP ::1","timestamp":"18-05-2022 08:58:36"}
-{"level":"error","message":"404 - Not Found: GET /javascripts/budle.js: IP ::1","timestamp":"18-05-2022 08:58:36"}
-{"level":"error","message":"404 - Not Found: GET /stylesheets/style.css: IP ::1","timestamp":"18-05-2022 09:05:16"}
-{"level":"error","message":"404 - Not Found: GET /javascripts/budle.js: IP ::1","timestamp":"18-05-2022 09:05:16"}
-{"level":"error","message":"404 - Not Found: GET /stylesheets/style.css: IP ::1","timestamp":"18-05-2022 09:16:40"}
-{"level":"error","message":"404 - Not Found: GET /javascripts/budle.js: IP ::1","timestamp":"18-05-2022 09:16:40"}
-{"level":"error","message":"404 - Not Found: GET /stylesheets/style.css: IP ::1","timestamp":"18-05-2022 09:17:06"}
-{"level":"error","message":"404 - Not Found: GET /javascripts/budle.js: IP ::1","timestamp":"18-05-2022 09:17:06"}
-{"level":"error","message":"404 - Not Found: GET /images/favicon.ico: IP ::1","timestamp":"18-05-2022 09:49:19"}
+{"level":"error","message":"no se pudo realizar la conexion 💀 connect ECONNREFUSED 127.0.0.1:27010","timestamp":"23-05-2022 08:38:28"}
+{"level":"error","message":"☠ No se conecto 🚫","timestamp":"23-05-2022 08:38:28"}
+{"level":"error","message":"404 - Not Found: GET /images/favicon.ico: IP ::1","timestamp":"23-05-2022 08:40:05"}
+{"level":"error","message":"no se pudo realizar la conexion 💀 connect ECONNREFUSED 127.0.0.1:2701","timestamp":"23-05-2022 08:40:17"}
+{"level":"error","message":"☠ No se conecto 🚫","timestamp":"23-05-2022 08:40:17"}
+{"level":"error","message":"404 - Not Found: GET /main.b03026e4652dbef619e0.hot-update.json: IP ::1","timestamp":"23-05-2022 08:42:22"}
+{"level":"error","message":"no se pudo realizar la conexion devido a: connect ECONNREFUSED 127.0.0.1:2701 💀","timestamp":"23-05-2022 08:42:40"}
+{"level":"error","message":"☠ No se conecto 🚫","timestamp":"23-05-2022 08:42:40"}
+{"level":"error","message":"404 - Not Found: GET /main.6682f2d3933d7f6d5907.hot-update.json: IP ::1","timestamp":"23-05-2022 08:44:13"}
