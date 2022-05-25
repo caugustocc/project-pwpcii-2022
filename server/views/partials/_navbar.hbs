@@ -1,18 +1,31 @@
+<!--Se crea una estrictra Dropdown -->
+<ul id="dropdownMenu" class="dropdown-content">
+  <li><a href="#"><i class="large material-icons">list</i> Lista de proyectos</a></li>
+  <li class="divider"></li>
+  <li><a href="#"><i class="large material-icons">add</i>Crear un proyecto</a></li>
+</ul>
 <nav class="light-blue darken-4">
   <div class="container">
     <div class="nav-wrapper">
       <a href="/" class="brand-logo">👽ProjNotes</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down" >
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="/">Inicio</a></li>
         <li><a href="/about">Acerca de ...</a></li>
+        <li><a class="dropdown-tigger" href="#" data-target="dropdownMenu">Acciones<i
+              class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
       <!-- Visualizacion de navegacion para moviles -->
       <a href="#" data-target="slide-out" class="sidenav-trigger">
-      <i class="material-icons">menu</i>
+        <i class="material-icons">menu</i>
       </a>
       <ul id="slide-out" class="sidenav">
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/about">Acerca de ...</a></li>
+        <li><a href="/"><i class="large material-icons">home</i>Inicio</a></li>
+        <li><a href="#"><i class="large material-icons">list</i> Lista de
+            proyectos</a></li>
+        <li class="divider"></li>
+        <li><a href="#"><i class="large material-icons">add</i>Crear un proyecto</a></li>
+        <!--Divisor -->
+        <li><a href="/about"><i class="large material-icons">copyright</i>Acerca de ...</a></li>
       </ul>
     </div>
   </div>
