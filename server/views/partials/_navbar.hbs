@@ -1,8 +1,6 @@
 <!--Se crea una estrictra Dropdown -->
 <ul id="dropdownMenu" class="dropdown-content">
-  <li><a href="#"><i class="large material-icons">list</i> Lista de proyectos</a></li>
-  <li class="divider"></li>
-  <li><a href="#"><i class="large material-icons">add</i>Crear un proyecto</a></li>
+ {{> _operations}}
 </ul>
 <nav class="light-blue darken-4">
   <div class="container">
@@ -20,10 +18,7 @@
       </a>
       <ul id="slide-out" class="sidenav">
         <li><a href="/"><i class="large material-icons">home</i>Inicio</a></li>
-        <li><a href="#"><i class="large material-icons">list</i> Lista de
-            proyectos</a></li>
-        <li class="divider"></li>
-        <li><a href="#"><i class="large material-icons">add</i>Crear un proyecto</a></li>
+         {{> _operations}}
         <!--Divisor -->
         <li><a href="/about"><i class="large material-icons">copyright</i>Acerca de ...</a></li>
       </ul>
