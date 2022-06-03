@@ -418,3 +418,21 @@
 {"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 10.501 ms - -\n","timestamp":"02-06-2022 00:11:04"}
 {"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.680 ms - -\n","timestamp":"02-06-2022 00:11:04"}
 {"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 7.183 ms - -\n","timestamp":"02-06-2022 00:12:17"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"02-06-2022 21:13:33"}
+{"level":"info","message":"escuchando en 3000","timestamp":"02-06-2022 21:13:33"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"02-06-2022 21:13:33"}
+{"level":"info","message":"GET / 304 87.506 ms - -\n","timestamp":"02-06-2022 21:13:37"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 3.340 ms - -\n","timestamp":"02-06-2022 21:13:37"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 2.534 ms - -\n","timestamp":"02-06-2022 21:13:37"}
+{"level":"info","message":"GET /projects/add 304 24.604 ms - -\n","timestamp":"02-06-2022 21:13:41"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 6.587 ms - -\n","timestamp":"02-06-2022 21:13:41"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 2.505 ms - -\n","timestamp":"02-06-2022 21:13:41"}
+{"level":"info","message":"GET /images/proyecto0.jpg 304 5.263 ms - -\n","timestamp":"02-06-2022 21:13:41"}
+{"level":"info","message":"Se retorna objeto de error de validacion","timestamp":"02-06-2022 21:13:44"}
+{"level":"info","message":"POST /projects/add 200 343.973 ms - 712\n","timestamp":"02-06-2022 21:13:44"}
+{"level":"error","message":"404 - Not Found: GET /favicon.ico: IP ::1","timestamp":"02-06-2022 21:13:44"}
+{"level":"info","message":"GET /favicon.ico 404 13.025 ms - 1414\n","timestamp":"02-06-2022 21:13:44"}
+{"level":"info","message":"GET /projects/add 200 8.017 ms - 3741\n","timestamp":"02-06-2022 21:13:52"}
+{"level":"info","message":"Se retorna objeto Projecto valido","timestamp":"02-06-2022 21:13:56"}
+{"level":"info","message":"POST /projects/add 200 2.667 ms - 33\n","timestamp":"02-06-2022 21:13:56"}
+{"level":"info","message":"GET /projects/add 200 7.511 ms - 3741\n","timestamp":"02-06-2022 21:14:01"}

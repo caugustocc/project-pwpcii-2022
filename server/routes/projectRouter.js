@@ -1,25 +1,38 @@
-// Importamos el Router de Express
+// Importando el Router de Express
 import { Router } from 'express';
 
-// Importando el controlador de proyecto
+// Importar el validador
+import Validate from '../validators/validateFactory';
+// Importamos el esquema de validación
+import projectValidator from '../validators/projectValidator';
+
+// Importando el controlador de proyectos
 import projectController from '../controllers/projectController';
 
 // Crear la instancia del Router
 const router = new Router();
 
-/* -------GET--------*/
+/* ------- GET --------*/
 // Listar proyectos
-// GET: / | GET: /projects/index
-router.get(['/', 'index'], projectController.index);
+// GET: /projects/ | GET: /projects/index
+router.get(['/', '/index'], projectController.index);
 
-// Se envia el formulario para registrar una idea de proyecto
-// GET
+// Envia el formulario para registrar una idea de proyecto
+// GET /projects/add
 router.get('/add', projectController.add);
 
 /* ----------- POST -------------------*/
 // Procesa el formulario que Agrega ideas de proyectos
 // POST /projects/add
-router.post('/add', projectController.addPost);
 
-// Exporntando el enrutador Projets
+router.post(
+  '/add',
+  Validate({
+    shape: projectValidator.projectSchema,
+    getObject: projectValidator.getProject,
+  }),
+  projectController.addPost
+);
+
+// Exportando el enrutador Projects
 export default router;

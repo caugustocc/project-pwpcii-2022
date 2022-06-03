@@ -25,3 +25,4 @@
 {"level":"error","message":"404 - Not Found: GET /main.824efd5fd3ba0f49ff5a.hot-update.json: IP ::ffff:127.0.0.1","timestamp":"31-05-2022 08:56:22"}
 {"level":"error","message":"404 - Not Found: GET /main.843005b31f36f35a5964.hot-update.json: IP ::ffff:127.0.0.1","timestamp":"31-05-2022 08:56:48"}
 {"level":"error","message":"404 - Not Found: GET /images/favicon.ico: IP ::1","timestamp":"01-06-2022 23:31:58"}
+{"level":"error","message":"404 - Not Found: GET /favicon.ico: IP ::1","timestamp":"02-06-2022 21:13:44"}
