@@ -1,16 +1,17 @@
-/* Actions Methods */
+/* Action Methods */
 
-// Lista los proyectos
-// GET /projects | GET /proyects/index
+// Lista de proyectos
+// GET /projects | GET /projects/index
 const index = (req, res) => {
-  res.send('Listando proyectos 🛠⚒⚒🛠');
-  // TODO: Agregar codigo de listado de proyectos
+  res.send('Listando proyectos 🚧');
+  // TODO: Agregando codigo de listado de proyectos
 };
 
-// Agrega ideas de proyectos
+// Agregando ideas de proyectos
+// GET /projects/add
 const add = (req, res) => {
   res.render('projects/addProjectView', {});
-  //   TODO: Mas codigo plis
+  // TODO: Agregando codigo de ideas de proyectos
 };
 
 // Procesa el formulario que Agrega ideas de proyectos
@@ -18,12 +19,13 @@ const add = (req, res) => {
 const addPost = (req, res) => {
   // Desestructurando la informacion
   // del formulario
-  const { valiData: project } = req.body;
+  const { name, description } = req.body;
   // Regresar un objeto con los datos
   // obtenidos del formulario
-  res.status(200).json({ project });
+  res.status(200).json({ name, description });
 };
-// Exportando el controlador
+
+// Exxportando el controlador
 export default {
   index,
   add,
