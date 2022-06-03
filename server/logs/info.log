@@ -184,3 +184,237 @@
 {"level":"info","message":"GET / 200 6.118 ms - 2922\n","timestamp":"25-05-2022 08:37:24"}
 {"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 0.766 ms - -\n","timestamp":"25-05-2022 08:37:24"}
 {"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 2.946 ms - -\n","timestamp":"25-05-2022 08:37:24"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"27-05-2022 07:58:06"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"27-05-2022 07:58:11"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"27-05-2022 08:19:03"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"27-05-2022 08:19:04"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:29:33"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:29:36"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:30:03"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:30:03"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:30:03"}
+{"level":"info","message":"GET / 200 131.954 ms - 2908\n","timestamp":"31-05-2022 08:30:16"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 7.156 ms - -\n","timestamp":"31-05-2022 08:30:16"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 4.434 ms - -\n","timestamp":"31-05-2022 08:30:16"}
+{"level":"error","message":"404 - Not Found: GET /images/favicon.ico: IP ::1","timestamp":"31-05-2022 08:30:16"}
+{"level":"info","message":"GET /images/favicon.ico 404 14.525 ms - 1414\n","timestamp":"31-05-2022 08:30:16"}
+{"level":"info","message":"GET / 304 7.653 ms - -\n","timestamp":"31-05-2022 08:30:17"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 4.641 ms - -\n","timestamp":"31-05-2022 08:30:17"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 4.048 ms - -\n","timestamp":"31-05-2022 08:30:17"}
+{"level":"info","message":"GET / 304 9.576 ms - -\n","timestamp":"31-05-2022 08:30:19"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 5.406 ms - -\n","timestamp":"31-05-2022 08:30:19"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.442 ms - -\n","timestamp":"31-05-2022 08:30:19"}
+{"level":"info","message":"GET /about 200 17.492 ms - 2720\n","timestamp":"31-05-2022 08:30:20"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 1.231 ms - -\n","timestamp":"31-05-2022 08:30:20"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.372 ms - -\n","timestamp":"31-05-2022 08:30:20"}
+{"level":"info","message":"GET / 304 9.210 ms - -\n","timestamp":"31-05-2022 08:30:23"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 0.798 ms - -\n","timestamp":"31-05-2022 08:30:23"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 0.601 ms - -\n","timestamp":"31-05-2022 08:30:23"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:30:34"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:30:34"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:30:34"}
+{"level":"error","message":"404 - Not Found: GET /main.8325494981a2f55c7760.hot-update.json: IP ::ffff:127.0.0.1","timestamp":"31-05-2022 08:30:37"}
+{"level":"info","message":"GET /main.8325494981a2f55c7760.hot-update.json 404 23.482 ms - 1414\n","timestamp":"31-05-2022 08:30:37"}
+{"level":"info","message":"GET / 304 50.191 ms - -\n","timestamp":"31-05-2022 08:30:37"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 3.163 ms - -\n","timestamp":"31-05-2022 08:30:37"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 4.109 ms - -\n","timestamp":"31-05-2022 08:30:37"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:30:50"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:30:50"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:30:51"}
+{"level":"error","message":"404 - Not Found: GET /main.38d28b8155925279487c.hot-update.json: IP ::1","timestamp":"31-05-2022 08:30:54"}
+{"level":"info","message":"GET /main.38d28b8155925279487c.hot-update.json 404 15.557 ms - 1414\n","timestamp":"31-05-2022 08:30:54"}
+{"level":"info","message":"GET / 304 49.957 ms - -\n","timestamp":"31-05-2022 08:30:54"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 10.930 ms - -\n","timestamp":"31-05-2022 08:30:54"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 8.211 ms - -\n","timestamp":"31-05-2022 08:30:54"}
+{"level":"info","message":"GET / 304 16.008 ms - -\n","timestamp":"31-05-2022 08:33:45"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 1.958 ms - -\n","timestamp":"31-05-2022 08:33:45"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 0.846 ms - -\n","timestamp":"31-05-2022 08:33:45"}
+{"level":"info","message":"GET / 304 12.630 ms - -\n","timestamp":"31-05-2022 08:33:47"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 4.524 ms - -\n","timestamp":"31-05-2022 08:33:47"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 6.284 ms - -\n","timestamp":"31-05-2022 08:33:47"}
+{"level":"info","message":"GET /about 304 12.199 ms - -\n","timestamp":"31-05-2022 08:33:48"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 0.595 ms - -\n","timestamp":"31-05-2022 08:33:48"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 1.832 ms - -\n","timestamp":"31-05-2022 08:33:48"}
+{"level":"info","message":"GET / 304 10.101 ms - -\n","timestamp":"31-05-2022 08:33:51"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 1.533 ms - -\n","timestamp":"31-05-2022 08:33:51"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 1.467 ms - -\n","timestamp":"31-05-2022 08:33:51"}
+{"level":"info","message":"GET /about 304 9.743 ms - -\n","timestamp":"31-05-2022 08:33:54"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 0.793 ms - -\n","timestamp":"31-05-2022 08:33:54"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 2.470 ms - -\n","timestamp":"31-05-2022 08:33:54"}
+{"level":"info","message":"GET / 304 9.398 ms - -\n","timestamp":"31-05-2022 08:33:56"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 1.050 ms - -\n","timestamp":"31-05-2022 08:33:56"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 1.729 ms - -\n","timestamp":"31-05-2022 08:33:56"}
+{"level":"info","message":"GET / 304 7.390 ms - -\n","timestamp":"31-05-2022 08:33:57"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 2.165 ms - -\n","timestamp":"31-05-2022 08:33:57"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 1.776 ms - -\n","timestamp":"31-05-2022 08:33:57"}
+{"level":"info","message":"GET /about 304 14.147 ms - -\n","timestamp":"31-05-2022 08:34:12"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 3.866 ms - -\n","timestamp":"31-05-2022 08:34:12"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 1.965 ms - -\n","timestamp":"31-05-2022 08:34:12"}
+{"level":"info","message":"GET / 304 9.098 ms - -\n","timestamp":"31-05-2022 08:34:15"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 0.707 ms - -\n","timestamp":"31-05-2022 08:34:15"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 2.659 ms - -\n","timestamp":"31-05-2022 08:34:15"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:44:11"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:44:11"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:44:11"}
+{"level":"error","message":"404 - Not Found: GET /main.15dde91e1b95a27c1a34.hot-update.json: IP ::ffff:127.0.0.1","timestamp":"31-05-2022 08:44:14"}
+{"level":"info","message":"GET /main.15dde91e1b95a27c1a34.hot-update.json 404 16.469 ms - 1414\n","timestamp":"31-05-2022 08:44:14"}
+{"level":"info","message":"GET / 304 47.296 ms - -\n","timestamp":"31-05-2022 08:44:14"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 9.641 ms - -\n","timestamp":"31-05-2022 08:44:14"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 5.930 ms - -\n","timestamp":"31-05-2022 08:44:14"}
+{"level":"info","message":"GET / 304 12.207 ms - -\n","timestamp":"31-05-2022 08:45:41"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 11.003 ms - -\n","timestamp":"31-05-2022 08:45:41"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 10.023 ms - -\n","timestamp":"31-05-2022 08:45:41"}
+{"level":"info","message":"GET / 304 10.716 ms - -\n","timestamp":"31-05-2022 08:45:42"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 3.991 ms - -\n","timestamp":"31-05-2022 08:45:42"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 6.183 ms - -\n","timestamp":"31-05-2022 08:45:42"}
+{"level":"info","message":"GET / 304 9.263 ms - -\n","timestamp":"31-05-2022 08:45:43"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 0.896 ms - -\n","timestamp":"31-05-2022 08:45:43"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 1.499 ms - -\n","timestamp":"31-05-2022 08:45:43"}
+{"level":"info","message":"GET / 304 9.965 ms - -\n","timestamp":"31-05-2022 08:45:44"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 2.498 ms - -\n","timestamp":"31-05-2022 08:45:44"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.762 ms - -\n","timestamp":"31-05-2022 08:45:44"}
+{"level":"info","message":"GET /about 304 13.508 ms - -\n","timestamp":"31-05-2022 08:45:44"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 0.771 ms - -\n","timestamp":"31-05-2022 08:45:44"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 1.514 ms - -\n","timestamp":"31-05-2022 08:45:44"}
+{"level":"info","message":"GET / 304 6.616 ms - -\n","timestamp":"31-05-2022 08:46:01"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 3.654 ms - -\n","timestamp":"31-05-2022 08:46:01"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 2.616 ms - -\n","timestamp":"31-05-2022 08:46:01"}
+{"level":"info","message":"GET / 304 10.750 ms - -\n","timestamp":"31-05-2022 08:46:02"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 8.243 ms - -\n","timestamp":"31-05-2022 08:46:02"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 8.407 ms - -\n","timestamp":"31-05-2022 08:46:02"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:46:12"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:46:13"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:46:13"}
+{"level":"info","message":"GET / 304 97.099 ms - -\n","timestamp":"31-05-2022 08:46:38"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 11.328 ms - -\n","timestamp":"31-05-2022 08:46:38"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 5.944 ms - -\n","timestamp":"31-05-2022 08:46:38"}
+{"level":"info","message":"GET / 304 10.543 ms - -\n","timestamp":"31-05-2022 08:46:40"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 8.124 ms - -\n","timestamp":"31-05-2022 08:46:40"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 5.500 ms - -\n","timestamp":"31-05-2022 08:46:40"}
+{"level":"info","message":"GET / 304 10.312 ms - -\n","timestamp":"31-05-2022 08:46:41"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 4.733 ms - -\n","timestamp":"31-05-2022 08:46:41"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 1.355 ms - -\n","timestamp":"31-05-2022 08:46:41"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:48:11"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:48:11"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:48:11"}
+{"level":"error","message":"404 - Not Found: GET /main.23b243a7eee398f6180c.hot-update.json: IP ::1","timestamp":"31-05-2022 08:48:15"}
+{"level":"info","message":"GET /main.23b243a7eee398f6180c.hot-update.json 404 31.872 ms - 1414\n","timestamp":"31-05-2022 08:48:15"}
+{"level":"info","message":"GET / 200 86.113 ms - 2921\n","timestamp":"31-05-2022 08:48:15"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 9.907 ms - -\n","timestamp":"31-05-2022 08:48:15"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 11.275 ms - -\n","timestamp":"31-05-2022 08:48:15"}
+{"level":"info","message":"GET /projects/add 200 1.644 ms - 33\n","timestamp":"31-05-2022 08:48:16"}
+{"level":"error","message":"404 - Not Found: GET /favicon.ico: IP ::1","timestamp":"31-05-2022 08:48:16"}
+{"level":"info","message":"GET /favicon.ico 404 4.709 ms - 1414\n","timestamp":"31-05-2022 08:48:16"}
+{"level":"info","message":"GET /projects/add 304 1.821 ms - -\n","timestamp":"31-05-2022 08:48:39"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:49:00"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:49:00"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:49:00"}
+{"level":"error","message":"404 - Not Found: GET /main.c8a4d2b8aed27f1e6a2c.hot-update.json: IP ::ffff:127.0.0.1","timestamp":"31-05-2022 08:49:03"}
+{"level":"info","message":"GET /main.c8a4d2b8aed27f1e6a2c.hot-update.json 404 14.497 ms - 1414\n","timestamp":"31-05-2022 08:49:03"}
+{"level":"info","message":"GET / 304 52.314 ms - -\n","timestamp":"31-05-2022 08:49:03"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 7.271 ms - -\n","timestamp":"31-05-2022 08:49:03"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 0.843 ms - -\n","timestamp":"31-05-2022 08:49:03"}
+{"level":"info","message":"GET / 304 10.118 ms - -\n","timestamp":"31-05-2022 08:49:16"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 3.452 ms - -\n","timestamp":"31-05-2022 08:49:16"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 2.617 ms - -\n","timestamp":"31-05-2022 08:49:16"}
+{"level":"info","message":"GET /projects/add 304 1.612 ms - -\n","timestamp":"31-05-2022 08:49:18"}
+{"level":"info","message":"GET /projects/add 304 0.845 ms - -\n","timestamp":"31-05-2022 08:49:19"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:49:27"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:49:27"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:49:28"}
+{"level":"error","message":"404 - Not Found: GET /main.1bbbeba7e3682feba7d4.hot-update.json: IP ::1","timestamp":"31-05-2022 08:49:43"}
+{"level":"info","message":"GET /main.1bbbeba7e3682feba7d4.hot-update.json 404 20.532 ms - 1414\n","timestamp":"31-05-2022 08:49:43"}
+{"level":"info","message":"GET / 304 52.996 ms - -\n","timestamp":"31-05-2022 08:49:43"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 2.191 ms - -\n","timestamp":"31-05-2022 08:49:43"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.049 ms - -\n","timestamp":"31-05-2022 08:49:44"}
+{"level":"info","message":"GET / 304 13.729 ms - -\n","timestamp":"31-05-2022 08:49:44"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 5.826 ms - -\n","timestamp":"31-05-2022 08:49:44"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 4.432 ms - -\n","timestamp":"31-05-2022 08:49:44"}
+{"level":"info","message":"GET /projects/add 304 1.424 ms - -\n","timestamp":"31-05-2022 08:49:47"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:50:00"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:50:00"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:50:00"}
+{"level":"error","message":"404 - Not Found: GET /main.a574ad190823f52d1f4b.hot-update.json: IP ::ffff:127.0.0.1","timestamp":"31-05-2022 08:50:04"}
+{"level":"info","message":"GET /main.a574ad190823f52d1f4b.hot-update.json 404 29.137 ms - 1414\n","timestamp":"31-05-2022 08:50:04"}
+{"level":"info","message":"GET / 304 88.120 ms - -\n","timestamp":"31-05-2022 08:50:04"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 4.095 ms - -\n","timestamp":"31-05-2022 08:50:04"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 5.034 ms - -\n","timestamp":"31-05-2022 08:50:04"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:50:06"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:50:06"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:50:07"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:50:09"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:50:09"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:50:09"}
+{"level":"error","message":"404 - Not Found: GET /main.2bc63cddd1a51215066d.hot-update.json: IP ::ffff:127.0.0.1","timestamp":"31-05-2022 08:50:12"}
+{"level":"info","message":"GET /main.2bc63cddd1a51215066d.hot-update.json 404 12.694 ms - 1414\n","timestamp":"31-05-2022 08:50:12"}
+{"level":"info","message":"GET / 304 56.505 ms - -\n","timestamp":"31-05-2022 08:50:12"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 7.321 ms - -\n","timestamp":"31-05-2022 08:50:12"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 5.567 ms - -\n","timestamp":"31-05-2022 08:50:12"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:50:29"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:50:29"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:50:30"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:50:42"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:50:42"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:50:43"}
+{"level":"info","message":"GET / 304 53.053 ms - -\n","timestamp":"31-05-2022 08:50:58"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 7.309 ms - -\n","timestamp":"31-05-2022 08:50:58"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 4.288 ms - -\n","timestamp":"31-05-2022 08:50:58"}
+{"level":"info","message":"GET /projects/add 304 1.831 ms - -\n","timestamp":"31-05-2022 08:51:00"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:54:08"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:54:08"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:54:09"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:54:59"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:54:59"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:54:59"}
+{"level":"info","message":"GET / 200 58.385 ms - 2921\n","timestamp":"31-05-2022 08:55:05"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 11.328 ms - -\n","timestamp":"31-05-2022 08:55:05"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 2.142 ms - -\n","timestamp":"31-05-2022 08:55:05"}
+{"level":"info","message":"GET /projects/add 200 13.056 ms - 3741\n","timestamp":"31-05-2022 08:55:06"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 1.010 ms - -\n","timestamp":"31-05-2022 08:55:06"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.997 ms - -\n","timestamp":"31-05-2022 08:55:06"}
+{"level":"info","message":"GET /images/proyecto0.jpg 200 6.380 ms - 36482\n","timestamp":"31-05-2022 08:55:06"}
+{"level":"error","message":"404 - Not Found: GET /projects/images/favicon.ico: IP ::1","timestamp":"31-05-2022 08:55:06"}
+{"level":"info","message":"GET /projects/images/favicon.ico 404 16.472 ms - 1414\n","timestamp":"31-05-2022 08:55:06"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:56:18"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:56:18"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:56:18"}
+{"level":"error","message":"404 - Not Found: GET /main.824efd5fd3ba0f49ff5a.hot-update.json: IP ::ffff:127.0.0.1","timestamp":"31-05-2022 08:56:22"}
+{"level":"info","message":"GET /main.824efd5fd3ba0f49ff5a.hot-update.json 404 29.208 ms - 1414\n","timestamp":"31-05-2022 08:56:22"}
+{"level":"info","message":"GET /projects/add 304 79.442 ms - -\n","timestamp":"31-05-2022 08:56:22"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 4.715 ms - -\n","timestamp":"31-05-2022 08:56:22"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.815 ms - -\n","timestamp":"31-05-2022 08:56:22"}
+{"level":"info","message":"GET /images/proyecto0.jpg 304 0.818 ms - -\n","timestamp":"31-05-2022 08:56:22"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:56:41"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:56:41"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:56:41"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"31-05-2022 08:56:44"}
+{"level":"info","message":"escuchando en 3000","timestamp":"31-05-2022 08:56:44"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"31-05-2022 08:56:44"}
+{"level":"error","message":"404 - Not Found: GET /main.843005b31f36f35a5964.hot-update.json: IP ::ffff:127.0.0.1","timestamp":"31-05-2022 08:56:48"}
+{"level":"info","message":"GET /main.843005b31f36f35a5964.hot-update.json 404 15.979 ms - 1414\n","timestamp":"31-05-2022 08:56:48"}
+{"level":"info","message":"GET /projects/add 304 42.475 ms - -\n","timestamp":"31-05-2022 08:56:48"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 2.446 ms - -\n","timestamp":"31-05-2022 08:56:48"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 1.529 ms - -\n","timestamp":"31-05-2022 08:56:48"}
+{"level":"info","message":"GET /images/proyecto0.jpg 304 0.855 ms - -\n","timestamp":"31-05-2022 08:56:48"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"01-06-2022 23:28:26"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"01-06-2022 23:28:29"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"01-06-2022 23:29:37"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"01-06-2022 23:29:37"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"01-06-2022 23:31:32"}
+{"level":"info","message":"escuchando en 3000","timestamp":"01-06-2022 23:31:32"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"01-06-2022 23:31:33"}
+{"level":"info","message":"GET / 304 216.733 ms - -\n","timestamp":"01-06-2022 23:31:57"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 55.271 ms - -\n","timestamp":"01-06-2022 23:31:57"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 58.592 ms - -\n","timestamp":"01-06-2022 23:31:57"}
+{"level":"error","message":"404 - Not Found: GET /images/favicon.ico: IP ::1","timestamp":"01-06-2022 23:31:58"}
+{"level":"info","message":"GET /images/favicon.ico 404 29.450 ms - 1414\n","timestamp":"01-06-2022 23:31:58"}
+{"level":"info","message":"GET / 304 21.073 ms - -\n","timestamp":"01-06-2022 23:32:48"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 3.521 ms - -\n","timestamp":"01-06-2022 23:32:48"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.110 ms - -\n","timestamp":"01-06-2022 23:32:48"}
+{"level":"info","message":"conectando a la base de datos: mongodb://localhost:27017/prjnotes_dev_class","timestamp":"02-06-2022 00:10:56"}
+{"level":"info","message":"escuchando en 3000","timestamp":"02-06-2022 00:10:56"}
+{"level":"info","message":"Conexion a la BD exitosa ✔","timestamp":"02-06-2022 00:10:57"}
+{"level":"info","message":"GET / 304 59.577 ms - -\n","timestamp":"02-06-2022 00:11:03"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 10.501 ms - -\n","timestamp":"02-06-2022 00:11:04"}
+{"level":"info","message":"GET /vendor/materializecss/js/materialize.min.js 304 3.680 ms - -\n","timestamp":"02-06-2022 00:11:04"}
+{"level":"info","message":"GET /vendor/materializecss/css/materialize.min.css 304 7.183 ms - -\n","timestamp":"02-06-2022 00:12:17"}

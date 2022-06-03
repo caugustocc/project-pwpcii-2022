@@ -9,12 +9,23 @@ const index = (req, res) => {
 
 // Agrega ideas de proyectos
 const add = (req, res) => {
-  res.send('Agreando ideas proyectos 🛠⚒⚒🛠');
+  res.render('projects/addProjectView', {});
   //   TODO: Mas codigo plis
 };
 
+// Procesa el formulario que Agrega ideas de proyectos
+// POST /projects/add
+const addPost = (req, res) => {
+  // Desestructurando la informacion
+  // del formulario
+  const { valiData: project } = req.body;
+  // Regresar un objeto con los datos
+  // obtenidos del formulario
+  res.status(200).json({ project });
+};
 // Exportando el controlador
 export default {
   index,
   add,
+  addPost,
 };
